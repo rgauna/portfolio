@@ -1,0 +1,13 @@
+#container {
+    color: blueviolet;    
+}
+
+#intro {
+
+    border: blue 1px solid;
+    background-image: url("./images/2221411112_e8686998fb_c.jpg");
+    background-size: inherit;
+    height: 400px;
+    width: inherit;
+
+}
