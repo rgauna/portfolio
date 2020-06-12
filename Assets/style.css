@@ -127,7 +127,7 @@
   #showcase {
     background:
     background-size: cover;
-    height: 600px;
+    height: 900px;
   }
 
   .img {
@@ -156,9 +156,16 @@
   
   /* Home Info */
   #home-info {
-    height: 400px;
+    height: 600px;
     
   }
+
+  .thumbnail {
+      height: 100px;
+      width: 100px;
+  }
+
+
 
   #meWiley {
     height: 200px;
