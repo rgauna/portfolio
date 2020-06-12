@@ -1,20 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <a href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"></a>
-    <link rel="stylesheet" href="./Assets/style.css">
-    
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Rodolfo Cruz Gauna Jr">
+  <meta name="keywords" content="Rudy Gauna Portfolio Rodolfo Cruz Gauna Jr">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Assets/style.css">
+  <title>Rodolfo Gauna | Welcome</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <h1>Rudy Gauna</h1>
-        <p id="intro">Hello! My name is Rudy Gauna and I am a San Antonio based junior web developer. I am currently in a coding boot camp at UTSA. My goal is to become a full-stack developer..... 
-        </p>
+  <header>
+    <nav id="navbar">
+      <div class="container">
+        <h1 class="logo"><a href="index.html">RG</a></h1>
+        <ul>
+          <li><a class="current" href="./index.html">Home</a></li>
+          <li><a href="./hobbies.html">Hobbies</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
 
+    <div id="showcase"class="img">
+      <div class="container">
+        <div class="showcase-content">
+          <h1><span class="text-primary">Rodolfo</span> Gauna</h1>
+          <p class="lead">Hello! My name is Rodolfo (rudy) and I am junior web developer based in San Antonio, TX. My goal is to become an experienced full-stack engineer.</p>
+          <img src="./Assets/images/wiley_n_me.jpg" id="meWiley">
+        </div>
+      </div>
     </div>
+  </header>
 
+  <section id="home-info" class="bg-dark img">
+    <div class="info-content">
+      <h2><span class="text-primary">Current & Past</span> Work</h2>
+      <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda
+          aliquam dolor alias iste autem, quaerat magni unde accusantium qui
+          fuga placeat quidem quo pariatur, voluptatum, ea sequi? Corporis,
+          explicabo quisquam dolor placeat praesentium nesciunt mollitia quos
+          nobis natus voluptatum asperiores!
+      </p>
+      <a href="./projects.html" class="btn btn-light">Projects & Assigments</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="box bg-light img">
+        <i class="fab fa-linkedin fa-3x"></i>
+      <h3>LinkedIn</h3>
+      <p>Connect with me on a more professional level!</p>
+    </div>
+    <div class="box bg-primary img">
+        <i class="fab fa-github fa-3x"></i>
+        <h3>GitHub</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, omnis?</p>
+    </div>
+    <div class="box bg-light img">
+        <i class="far fa-file fa-3x"></i>
+        <h3>CV</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, omnis?</p>
+    </div>
+  </section>
+
+  <div class="clr"></div>
 </body>
 </html>
