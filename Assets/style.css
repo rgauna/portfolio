@@ -133,6 +133,7 @@
   .img {
       background-image: url('./images/2221411112_e8686998fb_c.jpg'); background-attachment: fixed;
       background-size: inherit;
+      background-size: cover;
       
       
   }
@@ -193,6 +194,10 @@
     padding: 50px;
     text-align:center;
   }
+
+  #link {
+      color: #FFCAF2;
+  }
   
 
   
@@ -220,32 +225,7 @@
     min-height: 100%;
   }
   
-  /* Testimonials */
-  #testimonials {
-    height: 600px;
-    background: url('../img/test-bg.jpg') no-repeat center center/cover;
-    padding-top: 100px;
-  }
   
-  #testimonials h2 {
-    color: #FFCAF2;
-    text-align: center;
-    padding-bottom: 40px;
-  }
-  
-  #testimonials .testimonial {
-    padding: 20px;
-    margin-bottom: 40px;
-    border-radius: 5px;
-    opacity: 0.9;
-  }
-  
-  #testimonials .testimonial img {
-    width: 100px;
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
-  }
   
   /* Contact Form */
   #contact-form .form-group {
