@@ -1,9 +1,17 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
+$primary-color: #B8427F;
+$secondary-color: #E99F84;
+$show-home-image: true;
+$home-image: url(../dist/css/images/gulfstream_tir_2013099_lrg.jpg);
+$background-opacity: 0.9;
 
 @mixin  easeOut {
     transition: all 1s ease-out;
 }
+
+@mixin background {
+    background-image: url("../dist/css/images/gulfstream_tir_2013099_lrg.jpg");
+    
+};
 
 * {
     box-sizing: border-box;
@@ -11,6 +19,7 @@ $secondary-color: #eece1a;
 }
 
 body {
+    @include background;
     background: $primary-color;
     color: #fff;
     height: 100%;

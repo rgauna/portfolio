@@ -2,7 +2,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background-image: url("../dist/css/images/gulfstream_tir_2013099_lrg.jpg");
+  background: #B8427F;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -17,7 +18,7 @@ h1, h2, h3 {
   h1.sm-heading, h2.sm-heading, h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba #494949, 0.5; }
+    background: rgba #bd4784, 0.5; }
 
 a {
   color: #fff;
@@ -29,7 +30,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #E99F84; }
 
 main {
   padding: 4rem;
@@ -39,7 +40,7 @@ main {
     main .icons a {
       padding: .04 rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #E99F84;
         transition: all 1s ease-out; }
   main#home {
     overflow: hidden; }
